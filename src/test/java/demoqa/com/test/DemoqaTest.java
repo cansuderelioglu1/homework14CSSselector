@@ -35,7 +35,6 @@ public class DemoqaTest {
 
         driver.get("https://demoqa.com/buttons");
     }
-
     @Test(priority = 0)
     public void testDoubleClickButton() {
          WebElement btnDoubleClick = driver.findElement(By.cssSelector("button#doubleClickBtn"));
